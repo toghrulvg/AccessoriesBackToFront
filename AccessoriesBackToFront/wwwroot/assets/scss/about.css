@@ -1,0 +1,238 @@
+#contact {
+  height: 344px;
+  width: 100%;
+  background-color: black;
+  position: relative;
+}
+
+#contact .contact-pic img {
+  position: absolute;
+  width: 100%;
+  height: 344px;
+}
+
+#contact .header-text {
+  margin-top: 7rem;
+  position: absolute;
+  width: 100%;
+}
+
+#contact .header-text p {
+  font-weight: 500;
+  font-size: 46px;
+  color: white;
+  text-align: center;
+}
+
+#contact .footer-text {
+  margin-top: 13rem;
+  position: absolute;
+  width: 100%;
+}
+
+#contact .footer-text p {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+#providing {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  margin-top: 100px;
+}
+
+#providing p {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+#providing .btn {
+  margin-top: 1%;
+  padding: 0;
+}
+
+#providing .btn button {
+  width: 120px;
+  height: 50px;
+  background-color: #ff5722;
+  color: white;
+}
+
+#mission {
+  background-color: #f3f3f4;
+  width: 100%;
+  position: relative;
+}
+
+#mission p {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+#mission img {
+  width: 100%;
+  height: 650px;
+  float: left;
+}
+
+#vision {
+  width: 100%;
+  position: relative;
+}
+
+#vision p {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+#vision img {
+  width: 700px;
+  height: 650px;
+}
+
+#awesome {
+  width: 100%;
+  height: 500px;
+  background-image: url(../images/bdu.jpg);
+  background-position: 2%;
+  padding: 25px;
+}
+
+#awesome .graduate-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#awesome .graduate-info .graduate-info-comment > p {
+  font-size: 40px;
+  color: white;
+  margin: 0 auto;
+}
+
+#awesome .graduate-info .graduate-info-comment > p span {
+  font-weight: bolder;
+  font-weight: sans-serif;
+}
+
+#awesome .graduate-info .graduate-info-comment_item-com {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+#awesome .graduate-info .graduate-info-comment {
+  margin-top: 20px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#awesome .graduate-info .graduate-info-comment p {
+  color: white;
+  font-weight: bold;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 10px;
+}
+
+#awesome .graduate-info .graduate-info-comment_item:hover {
+  cursor: pointer;
+}
+
+#awesome .graduate-info-comment_item-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#awesome .graduate-info-comment_item-image .user {
+  padding: 0;
+  margin-top: 15px;
+  max-height: 50px;
+  margin: 20px;
+}
+
+#awesome .graduate-info-comment_item-image .user > p {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+#awesome .image img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+#meet .alig {
+  text-align: center;
+}
+
+#meet .card {
+  border: none;
+}
+
+#meet .card .image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#meet .card .image img {
+  border-radius: 50%;
+}
+
+#meet .card h3 {
+  text-align: center;
+}
+
+#meet .card p {
+  text-align: center;
+}
+
+#write input {
+  margin-top: 50px;
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid gray;
+  outline: none;
+}
+
+#write .button button {
+  background-color: #ff5722;
+  color: white;
+  margin-top: 30px;
+}
+/*# sourceMappingURL=about.css.map */

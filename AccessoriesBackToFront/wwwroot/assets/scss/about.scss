@@ -1,0 +1,202 @@
+#contact{
+    height: 344px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    .contact-pic{
+        img{
+            position: absolute;
+            width: 100%;
+            height: 344px;
+
+        }
+    }
+
+    .header-text{
+        margin-top: 7rem;
+        position: absolute;
+        width: 100%;
+        p{
+            font-weight: 500;
+            font-size: 46px;
+            color: white;
+            text-align: center;
+        }
+    }
+    .footer-text{
+        margin-top: 13rem;
+        position: absolute;
+        width: 100%;
+        p{
+            font-size: 20px;
+            color: white;
+            text-align: center;
+        }
+    }
+}
+
+#providing{
+    position: relative;
+    width: 100%;
+    height: 700px;
+    margin-top: 100px;
+    p{
+        font-size: 50px;
+        font-weight: 700;
+    }
+    .btn{
+        margin-top: 1%;
+        padding: 0;
+        button{
+            width: 120px;
+            height: 50px;
+            background-color: #ff5722;
+            color: white;
+        }
+    }
+}
+
+#mission{
+    background-color: #f3f3f4;
+    width: 100%;
+    position: relative;
+
+    p{
+        font-size: 60px;
+        font-weight: 700;
+    }
+
+    img{
+        width: 100%;
+        height: 650px;
+        float: left;
+    }
+}
+
+#vision{
+    width: 100%;
+    position: relative;
+
+    p{
+        font-size: 60px;
+        font-weight: 700;
+    }
+
+    img{
+        width: 700px;
+        height: 650px;
+    }
+}
+
+#awesome{
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/bdu.jpg);
+    background-position: 2%;
+    padding: 25px;
+    .graduate-info{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        font-family: 'Montserrat', sans-serif;
+        .graduate-info-comment>p{
+            font-size: 40px;
+            color: white;
+            margin: 0 auto;
+            span{
+                font-weight:bolder;
+                font-weight: sans-serif;
+            }
+        }
+        .graduate-info-comment_item-com{
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        .graduate-info-comment{
+            margin-top: 20px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            p{
+                color: white;
+                font-weight:  bold;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+        }
+        .graduate-info-comment_item{
+            &:hover{
+                cursor:pointer;
+            }
+        }
+    }
+    .graduate-info-comment_item-image{
+        display: flex;
+        justify-content: center;
+        .user{
+            padding: 0;
+            margin-top: 15px;
+            max-height: 50px;
+            margin: 20px;
+        }
+        .user>p{
+            padding: 0;
+            margin-top: 0;
+            margin-bottom: 0;
+            text-align: left;
+        }
+    }
+    .image{
+        img{
+        border-radius: 50%;
+            width: 100px;
+            height: 100px;
+        }
+    }
+}
+
+#meet{
+    .alig{
+        text-align: center;
+    }
+    .card{
+        border:none;
+        .image{
+            
+                display: flex;
+                justify-content: center;
+            
+            img{
+                border-radius: 50%;
+
+            }
+        }
+        h3{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+    }
+    
+}
+
+#write{
+    input{
+        margin-top: 50px;
+        width: 100%;
+        height: 40px;
+        border:none;
+        border-bottom: 1px solid gray;
+        outline: none;
+    }
+    .button{
+        button{background-color: #ff5722;
+            color: white;
+        margin-top: 30px;}
+        
+    }
+}
